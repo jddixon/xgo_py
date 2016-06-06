@@ -1,0 +1,5 @@
+# xgo_py/.dvcz/projCfg.local
+
+dir:pkg:xgo
+dir:clr:tmp
+
