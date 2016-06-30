@@ -1,0 +1,107 @@
+#!/usr/bin/python3
+
+# ~/dev/py/xgo_py/xgo2ant
+
+import datetime
+import os
+import re
+import subprocess
+import stat
+import sys
+import time
+import traceback
+from argparse import ArgumentParser
+
+from xgo import (__version__, __version_date__,
+                 )
+
+
+def main():
+
+    appName = 'ant2xgo %s' % __version__
+
+    # parse the command line ----------------------------------------
+    DESC = 'translate *.xgo to ant *.xml'
+
+    parser = ArgumentParser(description=DESC)
+
+    parser.add_argument('-f', '--force', action='store_true',
+                        help='recreate project if it already exists')
+
+    parser.add_argument('-i', '--inDir', default='./',
+                        help='input directory')
+
+    parser.add_argument('-j', '--justShow', action='store_true',
+                        help='show options and exit')
+
+    parser.add_argument('-o', '--outDir', default='./',
+                        help='output directory')
+
+    parser.add_argument('-T', '--testing', action='store_true',
+                        help='this is a test run')
+
+    parser.add_argument('-V', '--showVersion', action='store_true',
+                        help='display version info and exit')
+
+    parser.add_argument('-v', '--verbose', action='store_true',
+                        help='be chatty')
+
+    parser.add_argument('-z', '--dontDoIt', action='store_true',
+                        help='just say what you would do')
+
+    parser.add_argument('files', nargs='*',
+                        help='any number of valid file names')
+
+    args = parser.parse_args()
+
+    if args.showVersion:
+        print(appName)
+        sys.exit(0)
+
+    # fixups --------------------------------------------------------
+    for ndx, file in enumerate(args.files):
+        if not file.endswith('.xgo'):
+            args.files[ndx] = file + '.xgo'
+
+    # sanity checks -------------------------------------------------
+    if not args.files:
+        print("you must supply at least one file name")
+        sys.exit(0)
+
+    # fixups ----------- --------------------------------------------
+
+    # complete setup ------------------------------------------------
+    appName = 'xgo2ant %s' % __version__
+
+    # maybe show options and such -----------------------------------
+    if args.verbose or args.justShow:
+        print("%s %s" % (appName, __version_date__))
+
+    if args.verbose or args.justShow:
+        print('dontDoIt           = ' + str(args.dontDoIt))
+        print('force              = ' + str(args.force))
+        print('inDir              = ' + str(args.inDir))
+        print('outDir             = ' + str(args.outDir))
+        print('testing            = ' + str(args.testing))
+        print('verbose            = ' + str(args.verbose))
+
+        if len(args.files) > 0:
+            print()
+            print('files:')
+            for file in args.files:
+                print("  %s" % file)
+        print()
+
+    # do what's required --------------------------------------------
+
+    print("stubbed")
+
+    # gitMgr = GitMgr()           # acquire lock
+    # try:
+    #    addTheProjects(args)
+    # except:
+    #    pass
+    # gitMgr.close()              # release lock
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,56 @@
+-----BEGIN RSA PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoM2sBgX0ChP2JriXkOxS
+e2FjHYVzBGkNvgf0vIAa7FFYZi2pWmxBAVXgl3tTiB3quqqud/MbKqdejM6gkKBK
+v8f7hlcBQLD6BLIZ/RRfhIElc+WlDVfKSnBTB4va5qTQAgvuq5i8+oMj7G8WEy5d
+7cYucWyUJMtHvT4pCDtBWeeqQ62tByWjv34Ud/+A9Mjf0leiWxM3tiToVsqIKb4s
+zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
+H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
+GQIDAQAB
+-----END RSA PUBLIC KEY-----
+xgo_py v0.0.2
+2016-06-30 17:00:42
+# START CONTENT #
+xgo_py
+ .copyright ab39c54239118a4b086b878b7878100f769dd197
+ .dvcz
+  projCfg 23ee8b8c9937b2646b1e163f23ab113e4aef481b
+  projCfg.local e2fdbdc84104f62c967c99e557ea031a1dee4057
+  version dc972e03d78eb50ad4e7cc439dad158e4cd33704
+ .gitignore 5f1a04317952b671c5828218c6efe88c2594f8fb
+ CHANGES 599ea54238a3523adb0fb2df56e5a091ca879560
+ LICENSE.md f9785a1042444732de8b63db3a55ea01b4ccd7bf
+ MANIFEST.in cfb6fa7914c908f1f7160343a12d5125b05440a5
+ README.md 35b61091e5d2a0d8727c5d0a120e30c6c8660d5b
+ TODO fdd5db28c20c590468a7a47634fd22a5740bfb8a
+ ant2xgo 4719e9fdb1741eb3f214c2dad323fc8f5d0a2896
+ bkp2U a2cf10b77e18bdcc6a3b6ab90cc6bb411e6bb9ea
+ countem 42d4b27ff9e4cb1743933960daaaa9c86e44c4f5
+ dist
+  xgo_py-0.0.2.tar.gz 7e5453b1295e55acea74a71a554caa90d16c2a96
+ ghpDoc
+  css
+   LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
+   ghp.css 1d6ebe8a6cf8f61f4645a793cb087dfae2420f33
+   main.css 018ed80b8a6e6607bc7c08595fa5a7fa56853885
+   normalize.css cba40c7ce3d558d00ff79d7505ac3d348015ec9c
+  img
+   GitHub-Mark-32px.png fabe53eb72f9b6d3d47cd95aff31ffc45c2fdbf8
+   chunk.jpg de2b27e41f1547fc14b13399f5906b4303b49657
+   chunk2.jpg d0593d312dbb8ea837c17b28cb639726e29ea93b
+   cluster-with-clients.jpg c167d04c0c6b5736ef9fe4cdc3fcce1956fdea78
+   simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
+   xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
+   xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
+  index.md cff0fcf14e24c9a48db412be7f115cda146ee3d2
+ installit 6869926f9fae999d6f41cd74fe73ee8138031533
+ setup.py 0d9c4584b3ecf1917691f8c2f87e0eb16b1ab8cc
+ styleit 2c3e198c327d286fb2df20edc0504647fcab633c
+ test.all 2da9b817d63037bb1bb95dbbbbcde80d08fdb5dc
+ xgo
+  __init__.py 61089158afa2fd6ad351273a149ed96615cc23c5
+  ant.py 96dfb63485e0e42fff616865c83a24b0c3979f37
+ xgo2ant 3880156451afc33061a5245d8f07be8cede48c81
+ xgo2py 8b277d5c7681bf8037e705eac0cea08a96d39605
+# END CONTENT #
+
+gnIHeGY867fZyLrSdIp05cJb/VxXdKsMhqX9TfHdpXnRXZwrs8yrKzRcCftePXeQE5mAxDDez6rlXHKzEZdIoPZpfIeb06iTKixrWdh8pF2J4QQsiEVeGINnB6cQG8hqeFYalwB+swaTqyG/J7iwGxyRb5wlTYY9M6KU0CvGhOxRRNDEFBWSmMr1Ol2Cs+tmHRdjaVCYUS0vrSwBSZV572OhXU+SVUfbSoqBLiW2TC19GqCJkTM63LIaI5dnCdx9yNY6s2uz5bfh5JPqrwyHPgDlD4ZS/ghjFe2lglvszDoV9L88GqY0Ds5kbd+XlhvCOFZXZagOXlCkuep4dXnUrg==

@@ -4,6 +4,7 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/py/xgo_py
   
+  autopep8 -ai -r xgo ant2xgo xgo2ant xgo2py *.py
   
 else
   echo "DEV_BASE is not defined"

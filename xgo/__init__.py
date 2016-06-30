@@ -1,7 +1,22 @@
 # xgo_py/xgoy/__init__.py
 
-__all__ = [ '__version__', '__version_date__',
-          ]
+import sys
 
-__version__      = '0.0.1'
-__version_date__ = '2016-06-06'
+__all__ = [  # CONSTANTS
+    '__version__', '__version_date__',
+    # FUNCTIONS
+    'checkCounts',
+]
+
+__version__ = '0.0.2'
+__version_date__ = '2016-06-30'
+
+
+def checkCounts(inFiles, outFiles):
+    if len(inFiles) == 0:
+        print("INTERNAL ERROR: no inFiles")
+        sys.exit(1)
+    if len(inFiles) != len(outFiles):
+        print("INTERNAL ERROR: input count (%d) and output count (%d) differ" % (
+            len(inFiles), len(outFiles)))
+        sys.exit(1)
