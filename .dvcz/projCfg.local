@@ -3,3 +3,6 @@
 dir:pkg:xgo
 dir:clr:tmp
 
+py:global:ant2xgo
+py:global:xgo2ant
+py:global:xgo2py

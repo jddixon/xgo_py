@@ -4,6 +4,12 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/py/xgo_py
   
+  blListGen \
+    -d ../xgo_py \
+    -1L  \
+    -u $DVCZ_UDIR \
+    -X .ssh \
+    $@
   
 else
   echo "DEV_BASE is not defined"
