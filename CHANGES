@@ -1,9 +1,13 @@
 # ~/dev/py/xgo_py/CHANGES
 
+v0.0.3
+    2016-08-28
+        * fix license, setup.py
 v0.0.2
     2016-06-30
         * add ghpDoc/{css,img}
 v0.0.1
     2016-06-06
         * initial build
+
 

@@ -1,5 +1,7 @@
 # xgo_py/.dvcz/projCfg.local
 
+txt:std:LICENSE-MIT.md
+
 dir:pkg:xgo
 dir:clr:tmp
 
