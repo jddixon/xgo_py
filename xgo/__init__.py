@@ -8,8 +8,8 @@ __all__ = [  # CONSTANTS
     'checkCounts',
 ]
 
-__version__ = '0.0.4'
-__version_date__ = '2016-10-17'
+__version__ = '0.0.5'
+__version_date__ = '2017-05-08'
 
 
 def checkCounts(inFiles, outFiles):
