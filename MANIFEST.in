@@ -3,5 +3,5 @@
 include countem installit test.all
 include CHANGES README* TODO MANIFEST.in
 include .gitignoreinclude .gitignore**
-recursive-include xgo_py *.py
+recursive-include src tests
 global-exclude junk* .*swp 

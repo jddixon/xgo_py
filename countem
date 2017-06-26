@@ -6,7 +6,7 @@ then
   
   rm -rf build/* tmp/* 
   
-  pySloc -L py ant2xgo xgo2ant xgo2py  -X cover -X dist -v $@
+  pySloc -L py src/* tests  -X cover -X dist -v $@
 else
   echo "DEV_BASE is not defined"
 fi

@@ -1,3 +1,2 @@
-pylint setup.py xgo     \
-    ant2xgo xgo2ant xgo2py
+pylint setup.py src tests
 

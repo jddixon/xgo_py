@@ -3,7 +3,7 @@
 if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/py/xgo_py
-  
+  pytest 
   
 else
   echo "DEV_BASE is not defined"
