@@ -8,15 +8,16 @@ __all__ = [  # CONSTANTS
     'checkCounts',
 ]
 
-__version__ = '0.0.7'
-__version_date__ = '2017-07-31'
+__version__ = '0.0.8'
+__version_date__ = '2017-08-23'
 
 
-def checkCounts(inFiles, outFiles):
-    if len(inFiles) == 0:
-        print("INTERNAL ERROR: no inFiles")
+def checkCounts(infiles, outfiles):
+    if len(infiles) == 0:
+        print("INTERNAL ERROR: no infiles")
         sys.exit(1)
-    if len(inFiles) != len(outFiles):
-        print("INTERNAL ERROR: input count (%d) and output count (%d) differ" % (
-            len(inFiles), len(outFiles)))
+    if len(infiles) != len(outfiles):
+        print("INTERNAL ERROR: " +
+              "input count (%d) and output count (%d) differ" % (
+                  len(infiles), len(outfiles)))
         sys.exit(1)

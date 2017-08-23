@@ -1,30 +1,39 @@
 #!/usr/bin/python3
+# xgo_py/setup.py
 
-# xgo_py/xgo/setup.py
+""" Setuptools project configuration for xgo_py. """
 
-import re
-from distutils.core import setup
-__version__ = re.search("__version__\s*=\s*'(.*)'",
-                        open('src/xgo/__init__.py').read()).group(1)
+from os.path import exists
+from setuptools import setup
 
-# see http://docs.python.org/distutils/setupscript.html
+long_desc = None
+if exists('README.md'):
+    with open('README.md', 'r') as file:
+        long_desc = file.read()
 
 setup(name='xgo_py',
-      version=__version__,
+      version='0.0.8',
       author='Jim Dixon',
       author_email='jddixon@gmail.com',
+      long_description=long_desc,
+      packages=['xgo'],
+      package_dir={'': 'src'},
       py_modules=[],
-      packages=['src/xgo'],
-      # following could be in scripts/ subdir
-      scripts=['src/ant2xgo', 'src/xgo2ant', 'src/xgo2py', ],
+      include_package_data=False,
+      zip_safe=False,
+      scripts=['src/ant2xgo', 'src/xgo2ant', 'src/xgo2py'],
       description='Python implementation of xgo software',
-      url='http://jddixon.github.io/xgo_py',
+      url='https://jddixon.github.io/xgo_py',
       classifiers=[
           'Development Status :: 2 - Pre-Alpha',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: MIT License',
           'Natural Language :: English',
-          'Programming Language :: Python 3',
+          'Programming Language :: Python 2.7',
+          'Programming Language :: Python 3.3',
+          'Programming Language :: Python 3.4',
+          'Programming Language :: Python 3.5',
+          'Programming Language :: Python 3.6',
+          'Programming Language :: Python 3.7',
           'Topic :: Software Development :: Libraries :: Python Modules',
-      ],
-      )
+      ],)
