@@ -1,7 +1,5 @@
 # xgo_py/xgoy/ant.py
 
-import sys
-
 from xgo_py import checkCounts
 
 __all__ = [  # CONSTANTS
@@ -20,6 +18,5 @@ def ant2xgo(inFiles, outFiles,
 
     checkCounts(inFiles, outFiles)
 
-    for index, inFile in enumerate(inFiles):
-
+    for ndx, infile in enumerate(inFiles):
         ant2xgoOnce(infile, outFiles[ndx], dontDoIt, force, verbose)

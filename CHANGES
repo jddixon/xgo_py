@@ -1,5 +1,8 @@
 # ~/dev/py/xgo_py/CHANGES
 
+v0.0.8
+    2017-08-23
+        * add tox.ini, *requirements.txt; plus minor edits          SLOC 1041
 v0.0.7
     2017-07-31
         * rewrite setup.py; minor edits to config files             SLOC  996
@@ -21,6 +24,7 @@ v0.0.2
 v0.0.1
     2016-06-06
         * initial build
+
 
 
 
