@@ -2,8 +2,8 @@
 project:xgo_py
 package:xgo
 mainlang:py
-version:0.0.7
-versionDate:2017-07-31
+version:0.0.8
+versionDate:2017-08-23
 :?dirs?:
 dir:std:ghpDoc
 dir:std:dist

@@ -12,7 +12,7 @@ if exists('README.md'):
         long_desc = file.read()
 
 setup(name='xgo_py',
-      version='0.0.8',
+      version='0.0.9',
       author='Jim Dixon',
       author_email='jddixon@gmail.com',
       long_description=long_desc,
@@ -22,6 +22,7 @@ setup(name='xgo_py',
       include_package_data=False,
       zip_safe=False,
       scripts=['src/ant2xgo', 'src/xgo2ant', 'src/xgo2py'],
+      ext_modules=[],
       description='Python implementation of xgo software',
       url='https://jddixon.github.io/xgo_py',
       classifiers=[
