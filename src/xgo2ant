@@ -2,14 +2,14 @@
 
 # ~/dev/py/xgo_py/xgo2ant
 
-import datetime
-import os
-import re
-import subprocess
-import stat
+# import datetime
+# import os
+# import re
+# import subprocess
+# import stat
 import sys
-import time
-import traceback
+# import time
+# import traceback
 from argparse import ArgumentParser
 
 from xgo import (__version__, __version_date__,
@@ -18,23 +18,23 @@ from xgo import (__version__, __version_date__,
 
 def main():
 
-    appName = 'ant2xgo %s' % __version__
+    app_name = 'ant2xgo %s' % __version__
 
     # parse the command line ----------------------------------------
-    DESC = 'translate *.xgo to ant *.xml'
+    desc = 'translate *.xgo to ant *.xml'
 
-    parser = ArgumentParser(description=DESC)
+    parser = ArgumentParser(description=desc)
 
     parser.add_argument('-f', '--force', action='store_true',
                         help='recreate project if it already exists')
 
-    parser.add_argument('-i', '--inDir', default='./',
+    parser.add_argument('-i', '--in_dir', default='./',
                         help='input directory')
 
     parser.add_argument('-j', '--justShow', action='store_true',
                         help='show options and exit')
 
-    parser.add_argument('-o', '--outDir', default='./',
+    parser.add_argument('-o', '--out_dir', default='./',
                         help='output directory')
 
     parser.add_argument('-T', '--testing', action='store_true',
@@ -46,7 +46,7 @@ def main():
     parser.add_argument('-v', '--verbose', action='store_true',
                         help='be chatty')
 
-    parser.add_argument('-z', '--dontDoIt', action='store_true',
+    parser.add_argument('-z', '--dont_do_it', action='store_true',
                         help='just say what you would do')
 
     parser.add_argument('files', nargs='*',
@@ -54,8 +54,8 @@ def main():
 
     args = parser.parse_args()
 
-    if args.showVersion:
-        print(appName)
+    if args.show_version:
+        print(app_name)
         sys.exit(0)
 
     # fixups --------------------------------------------------------
@@ -71,21 +71,21 @@ def main():
     # fixups ----------- --------------------------------------------
 
     # complete setup ------------------------------------------------
-    appName = 'xgo2ant %s' % __version__
+    app_name = 'xgo2ant %s' % __version__
 
     # maybe show options and such -----------------------------------
-    if args.verbose or args.justShow:
-        print("%s %s" % (appName, __version_date__))
+    if args.verbose or args.just_show:
+        print("%s %s" % (app_name, __version_date__))
 
-    if args.verbose or args.justShow:
-        print('dontDoIt           = ' + str(args.dontDoIt))
+    if args.verbose or args.just_show:
+        print('dont_do_it         = ' + str(args.dont_do_it))
         print('force              = ' + str(args.force))
-        print('inDir              = ' + str(args.inDir))
-        print('outDir             = ' + str(args.outDir))
+        print('in_dir             = ' + str(args.in_dir))
+        print('out_dir            = ' + str(args.out_dir))
         print('testing            = ' + str(args.testing))
         print('verbose            = ' + str(args.verbose))
 
-        if len(args.files) > 0:
+        if args.files:
             print()
             print('files:')
             for file in args.files:
@@ -98,7 +98,7 @@ def main():
 
     # gitMgr = GitMgr()           # acquire lock
     # try:
-    #    addTheProjects(args)
+    #    add_the_projects(args)
     # except:
     #    pass
     # gitMgr.close()              # release lock
