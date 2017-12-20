@@ -7,21 +7,18 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
-xgo_py v0.0.9
-2017-10-08 23:46:30
+xgo_py
+2017-12-20 23:43:24
 # BEGIN CONTENT #
 xgo_py
  .dvcz
-  builds 122c4e47615f3e2af5cd86677a44f1f637e13aa0
-  copyright ab39c54239118a4b086b878b7878100f769dd197
-  lastBuildList 9782158041c69ae35a61875a98facf3f6178eba4
-  license 5977a55c75bb4612004451a56b0b4c22d9d3311d
+  builds 1e3c3afa328f8a3de6fa3cc9524e960381735bfe
+  lastBuildList aca38824dcb1257fd4dab517e70c0ef8051a18e1
   projCfg 17b5cb438632279b1e07c950e77056d378a90b19
   projCfg.local 27e8f83f2560739f6a1ac5748a2d7b3c556f7f8c
-  projConfig.toml 3bba7675b0fb6f95ed7f7b239d7e992916354f12
-  version 2d6dd154de26886390bbf320df8dd6446295b1c0
+  projConfig.toml c8f938aeaf0aa024c4b8a688a238400a46a3c3fb
  .gitignore c8129c7133b7a7755cefd3dfc62a9af7bc306aa0
- CHANGES 52adda480c3167f6d60cacd405a114dba2055218
+ CHANGES a7550fa60813a3bdf028997a8f4d27ca097535c2
  LICENSE-MIT.md f9785a1042444732de8b63db3a55ea01b4ccd7bf
  MANIFEST.in ee87ecf6928c0c4c69376734eba9cf532ce748b1
  README.md 35b61091e5d2a0d8727c5d0a120e30c6c8660d5b
@@ -30,6 +27,7 @@ xgo_py
  checkCoverage ce67a49cc590131b84333eeb1ed9e6feeb90dfad
  countem 3779e922d6049b4dbb0bcb48888eb803a1507140
  doPyLint 31321ad99eb3b9ac0928a68c29a8b5b88c9472fb
+ fix_names e8fd90cb54d835f8106d505b2f7a06e5a0cdfd9e
  ghpDoc
   css
    LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
@@ -46,16 +44,17 @@ xgo_py
    xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
   index.md cff0fcf14e24c9a48db412be7f115cda146ee3d2
  installit 6869926f9fae999d6f41cd74fe73ee8138031533
+ name_pairs 2b3f146bffad020790aacba041068f758bd7610b
  pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
  requirements.txt ec5379f462af21ab42d32a27f285554c494b6864
- setup.py a52613c5a5138f677ca3d76e9c609ffa5a9638fa
+ setup.py 1ab208ffc7c8abebf6cb5fb599afa4e70d97292d
  src
-  ant2xgo 3d069172d0ff2893382ee64ccc00cd3e5513fc62
+  ant2xgo 46d866afa88fbdc2d2bbbf091c36e7fd87098c38
   xgo
-   __init__.py 790a5d72dfbe9cd213ea507027032d56287f63f0
-   ant.py f298a22658cbbc90730c7a2f0cda5faca358d054
-  xgo2ant 1ae8e878045f5302b5ea4e0d418b72901b9d0dec
-  xgo2py 6ec08879d43d0a48b1340d7e7dc14237f2a37f9c
+   __init__.py 10bba1f156a8f0af8687355092485f584c307f12
+   ant.py 68cb8dfbc90ce9be684c7d93ee202b758ce44a60
+  xgo2ant 50543c43f98cca8879214b4913534b894c8faed9
+  xgo2py 5363bff331c5487b69371332468e66bc99b7a657
  styleit a631198f15d35962f39b6bd8574f6af1782d66e5
  test.all 44c29f39483a6828c394d981acec05cd78ca4677
  test_requirements.txt 5fc9c6acb962394eddb1ae0eb4ac2b0ecce02e1c
@@ -63,4 +62,4 @@ xgo_py
  tox.ini 1e3724ff347ec461deb37196362d3b910b8e8844
 # END CONTENT #
 
-YeP14jdicH/6WFVPCmtcADb7J1h2thRrWdpmxdzMdlM1rRg4CKocFhwtcM2Vuri7v40kjn0QQMDjCNUwLEpRPv6Ltoq91eFTU3JoxZ7X6g3zp362jUZoqEaePEKE2TYx86qPOfyBtbIqHM3HrjMqQAiDLAyCvz8uKN+NRZav2kieWw6rR+qxd0iLZQaXEbEiIPO6NI6u3wk12GeUr5LFvfvXCm9ETJYHnfI9nixbpma4w22GFQmylXVIXaDmrZly7r8GSPvlgOolyjtCQUdktS7cTrIdyy5nL5Ow/aP9q5Oe+WRc2MweglZnKae4CK2mwBZZIr1qaQ+OolhaApDvRw==
+aYaYDMPuSTMGidRY1Kw6xzTUeQXfbHmw5qWnkvtoO4tfi+ywMAYWYs0Tcq1ceAaDkdlv/SZBfRibUnHy9w4PuXDrpcv4j6gRLBklJH8H0Uj5Oj3T2XGr5yhuxWsZGTpO5cmdUQoupVqhBgnUwsG4HLxYnS3moXBDTA0U5OZtp6ZhE3m10abajKxg26tZUVbQI3KpnrdCvF27WCZZVfcVzD0FBEmv+PKzzhkFR/IeuFe01IkArWZCfu1QWIRYeVurpyBOmHGPmkB934BwwLFgh+COqd9Bsv57D+Ftl/NefVHV2TGpWv5KaRddjKHsZrtU78iFqxURb6yDcEGbsXkKwA==

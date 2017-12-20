@@ -5,15 +5,15 @@ import sys
 __all__ = [  # CONSTANTS
     '__version__', '__version_date__',
     # FUNCTIONS
-    'checkCounts',
+    'check_counts',
 ]
 
-__version__ = '0.0.9'
-__version_date__ = '2017-10-08'
+__version__ = '0.0.10'
+__version_date__ = '2017-12-20'
 
 
-def checkCounts(infiles, outfiles):
-    if len(infiles) == 0:
+def check_counts(infiles, outfiles):
+    if not infiles:
         print("INTERNAL ERROR: no infiles")
         sys.exit(1)
     if len(infiles) != len(outfiles):

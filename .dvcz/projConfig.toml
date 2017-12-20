@@ -1,34 +1,30 @@
-projConfig.toml for xgo_py
-
 [meta]
-    version = '0.1.0'
+version = "0.1.0"
 
 [project]
-    name = 'xgo_py'  # distro name
-    package = 'xgo_py'  # internal name
-    proj_dir = '/home/jdd/dev/py/xgo_py'
-    main_lang = 'py'
-    version = '0.0.9'
-    version_date = '2017-10-08'
-    author = 'Jim Dixon'
-    author_email = 'jddixon@gmail.com'
-    copyright = '2016'
-    description = 'Python implementation of xgo software'
-    dev_status = 'pre_alpha'
-    license = 'mit'
-    state = 'shared'
-    url = 'https://jddixon.github.io/xgo_py'
+name = "xgo_py"
+package = "xgo_py"
+proj_dir = "/home/jdd/dev/py/xgo_py"
+main_lang = "py"
+version = "0.0.10"
+version_date = "2017-12-20"
+author = "Jim Dixon"
+author_email = "jddixon@gmail.com"
+copyright = "2016"
+description = "Python implementation of xgo software"
+dev_status = "pre_alpha"
+license = "mit"
+state = "shared"
+url = "https://jddixon.github.io/xgo_py"
 
 [py]
-    packages=['xgo']
-    package_dir = ['src']
-    test_dir = ['tests']
-    py_modules=[]
-    scripts=['src/ant2xgo', 'src/xgo2ant', 'src/xgo2py']
-    ext_modules=[]
-
-    # sdReq output
-    distshare=[]
-    env_vars=[]
-    requirements=['setuptools', 'xgo_py']
-    test_requirements=[]
+packages = [ "xgo",]
+package_dir = [ "src",]
+test_dir = [ "tests",]
+py_modules = []
+scripts = [ "src/ant2xgo", "src/xgo2ant", "src/xgo2py",]
+ext_modules = []
+distshare = []
+env_vars = []
+requirements = [ "setuptools", "xgo_py",]
+test_requirements = []

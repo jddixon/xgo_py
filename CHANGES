@@ -1,5 +1,8 @@
 # ~/dev/py/xgo_py/CHANGES
 
+v0.0.10
+    2017-12-20
+        * pylinting; general code cleanup                           SLOC 1055
 v0.0.9
     2017-10-08
         * add .dvcz/projConfig.toml                                 SLOC 1081
@@ -27,6 +30,7 @@ v0.0.2
 v0.0.1
     2016-06-06
         * initial build
+
 
 
 

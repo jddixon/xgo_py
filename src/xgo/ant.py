@@ -1,6 +1,6 @@
 # xgo_py/xgoy/ant.py
 
-from xgo_py import checkCounts
+from xgo import check_counts
 
 __all__ = [  # CONSTANTS
     # FUNCTIONS
@@ -8,15 +8,16 @@ __all__ = [  # CONSTANTS
 ]
 
 
-def ant2xgoOnce(inFile, outFile,
-                dontDoIt=False, force=False, verbose=False):
-    pass
+def ant2xgo_once(in_file, out_file,
+                 dont_do_it=False, force=False, verbose=False):
+    # SUPPRESS WARNINGS:
+    _, _, _, _, _ = in_file, out_file, dont_do_it, force, verbose
 
 
-def ant2xgo(inFiles, outFiles,
-            dontDoIt=False, force=False, verbose=False):
+def ant2xgo(in_files, out_files,
+            dont_do_it=False, force=False, verbose=False):
 
-    checkCounts(inFiles, outFiles)
+    check_counts(in_files, out_files)
 
-    for ndx, infile in enumerate(inFiles):
-        ant2xgoOnce(infile, outFiles[ndx], dontDoIt, force, verbose)
+    for ndx, infile in enumerate(in_files):
+        ant2xgo_once(infile, out_files[ndx], dont_do_it, force, verbose)
