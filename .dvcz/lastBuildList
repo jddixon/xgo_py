@@ -8,17 +8,17 @@ k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
 xgo_py
-2017-12-20 23:43:24
+2018-03-13 20:48:12
 # BEGIN CONTENT #
 xgo_py
  .dvcz
-  builds 1e3c3afa328f8a3de6fa3cc9524e960381735bfe
-  lastBuildList aca38824dcb1257fd4dab517e70c0ef8051a18e1
+  builds 48c4492c5955395707dc0d154566115be682c84b
+  lastBuildList c4e7a718ca998c76642662fc88820ba5e597d500
   projCfg 17b5cb438632279b1e07c950e77056d378a90b19
   projCfg.local 27e8f83f2560739f6a1ac5748a2d7b3c556f7f8c
-  projConfig.toml c8f938aeaf0aa024c4b8a688a238400a46a3c3fb
+  projConfig.toml 1254265274cd2e66d32f6e7e4aceedbf60ec9d62
  .gitignore c8129c7133b7a7755cefd3dfc62a9af7bc306aa0
- CHANGES a7550fa60813a3bdf028997a8f4d27ca097535c2
+ CHANGES 040819f3b3a984bbb56ba926a03157c29bc452c4
  LICENSE-MIT.md f9785a1042444732de8b63db3a55ea01b4ccd7bf
  MANIFEST.in ee87ecf6928c0c4c69376734eba9cf532ce748b1
  README.md 35b61091e5d2a0d8727c5d0a120e30c6c8660d5b
@@ -46,20 +46,20 @@ xgo_py
  installit 6869926f9fae999d6f41cd74fe73ee8138031533
  name_pairs 2b3f146bffad020790aacba041068f758bd7610b
  pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
- requirements.txt ec5379f462af21ab42d32a27f285554c494b6864
- setup.py 1ab208ffc7c8abebf6cb5fb599afa4e70d97292d
+ requirements.txt 066bdefbe8b049043632bbf985f55cc839e1543e
+ setup.py e9b9550d4c90903e8b5797753c6b5f7efe3cfe9e
  src
   ant2xgo 46d866afa88fbdc2d2bbbf091c36e7fd87098c38
   xgo
-   __init__.py 10bba1f156a8f0af8687355092485f584c307f12
+   __init__.py 6feff063d0096111476bfd9fa9ceb6d34bdc040c
    ant.py 68cb8dfbc90ce9be684c7d93ee202b758ce44a60
   xgo2ant 50543c43f98cca8879214b4913534b894c8faed9
   xgo2py 5363bff331c5487b69371332468e66bc99b7a657
  styleit a631198f15d35962f39b6bd8574f6af1782d66e5
  test.all 44c29f39483a6828c394d981acec05cd78ca4677
- test_requirements.txt 5fc9c6acb962394eddb1ae0eb4ac2b0ecce02e1c
+ test_requirements.txt 71a805e4659489b828c23fd907ca08f96dd56891
  tests
- tox.ini 1e3724ff347ec461deb37196362d3b910b8e8844
+ tox.ini 18db9b7df7f57a13752e418c973138201871f930
 # END CONTENT #
 
-aYaYDMPuSTMGidRY1Kw6xzTUeQXfbHmw5qWnkvtoO4tfi+ywMAYWYs0Tcq1ceAaDkdlv/SZBfRibUnHy9w4PuXDrpcv4j6gRLBklJH8H0Uj5Oj3T2XGr5yhuxWsZGTpO5cmdUQoupVqhBgnUwsG4HLxYnS3moXBDTA0U5OZtp6ZhE3m10abajKxg26tZUVbQI3KpnrdCvF27WCZZVfcVzD0FBEmv+PKzzhkFR/IeuFe01IkArWZCfu1QWIRYeVurpyBOmHGPmkB934BwwLFgh+COqd9Bsv57D+Ftl/NefVHV2TGpWv5KaRddjKHsZrtU78iFqxURb6yDcEGbsXkKwA==
+ch8J1xMAlFyMux7ICuiw+f1e4af3UkA9JdjEt2/3R7QKsKM5HC+MKm1KloncQ/ubN4m45vRTQLyDSVfJaIpIelar1ob8s/5btmFJdBGgs/WnT/hrjMdWBgXMsoVuz39SCL83WQjtS1bw6hvcvV6fDu2rYVvD+qQIeZBgYHKFivkyiyCodIo0sb/MHzSbUc+lOMLgVHtfUdDpzh2yv3bgbTUBJ/C6BsgOQwGm7IPEfcnPQIF3KfN3vy0mwx8lUWiVRH6NAt8bDRfolmqzL6Rsjwi+kFkt+VF2tyr00bcq0/QRucVZTYM6f72xAU3KiiUMbE/tR/zCsUBK/M2Of+ZHLg==
