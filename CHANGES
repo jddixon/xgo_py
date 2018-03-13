@@ -1,5 +1,8 @@
 # ~/dev/py/xgo_py/CHANGES
 
+v0.0.11
+    2018-03-13
+        * edit setup.py and tox config files                        SLOC 1050
 v0.0.10
     2017-12-20
         * pylinting; general code cleanup                           SLOC 1055
@@ -30,6 +33,7 @@ v0.0.2
 v0.0.1
     2016-06-06
         * initial build
+
 
 
 
